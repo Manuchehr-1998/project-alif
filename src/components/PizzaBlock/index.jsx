@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../../redux/slices/cartSlice";
+import { Link } from "react-router-dom";
 
 const typeName = ["тонкое", "традиционное"];
 
@@ -29,10 +30,12 @@ const PizzaBlock = ({ id, name, price, imageUrl, size, types }) => {
 
   return (
     <div className="w-[280px] text-center mb-[55px]">
-      <img className="w-[260px]" src={imageUrl} alt="Pizza" />
-      <h4 className="text-[20px] font-black tracking-[1%] mb-[20px] h-[30px]">
-        {name}
-      </h4>
+      <Link  to={`/pizza/${id}`}>
+        <img className="w-[260px]" src={imageUrl} alt="Pizza" />
+        <h4 className="text-[20px] font-black tracking-[1%] mb-[20px] h-[30px]">
+          {name}
+        </h4>
+      </Link>
       <div className="flex bg-[#f3f3f3] rounded-[10px] flex-col p-[6px] w-[100%]">
         <ul className="flex flex-1 py-2 w-[100%]">
           {types.map((type) => (
