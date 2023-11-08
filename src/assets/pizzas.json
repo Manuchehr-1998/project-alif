@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "name": "Пепперони Фреш с перцем",
+    "types": [0, 1],
+    "size": [26, 30, 40],
+    "price": 803,
+    "category": 0,
+    "rating0": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c03c7d3dad79437f8dcd20ab317d3651_366x366.webp",
+    "name": "Сырная",
+    "types": [0],
+    "size": [26, 40],
+    "price": 245,
+    "category": 1,
+    "rating0": 6
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/365f82bb333148bb9310d84c9a6e9857_366x366.webp",
+    "name": "Цыплонок барбекю",
+    "types": [0],
+    "size": [26, 40],
+    "price": 295,
+    "category": 1,
+    "rating0": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2797572b384e4ec6b348bfd2caec9432_366x366.webp",
+    "name": "Кисло сладкий цыпленок",
+    "types": [1],
+    "size": [26, 30, 40],
+    "price": 275,
+    "category": 2,
+    "rating0": 2
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0654c6be754346968325dbe626a67364_366x366.webp",
+    "name": "Чизбургер пицца",
+    "types": [0,1],
+    "size": [26, 30, 40],
+    "price": 415,
+    "category": 3,
+    "rating0": 8
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a74e9fa4e37e43a1a1ba2584ed1c0956_366x366.webp",
+    "name": "Крэйзи пепперони",
+    "types": [0],
+    "size": [30, 40],
+    "price": 580,
+    "category": 2,
+    "rating0": 2
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b64a64ff57f44ab1bca182e7e855a485_366x366.webp",
+    "name": "Пепперони",
+    "types": [0,1],
+    "size": [26,30, 40],
+    "price": 675,
+    "category": 1,
+    "rating0": 9
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/57be55bcb56c4592bfca9bac10ebbfd7_366x366.webp",
+    "name": "Маргарита",
+    "types": [0, 1],
+    "size": [26, 30, 40],
+    "price": 450,
+    "category": 4,
+    "rating0": 10
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/442bb6fded1c429f95c253c0ac2955ca_366x366.webp",
+    "name": "Четыре сезона",
+    "types": [0, 1],
+    "size": [26, 30, 40],
+    "price": 395,
+    "category": 5,
+    "rating0": 10
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/8d5b3222de3549779b1ab60182f213c8_366x366.webp",
+    "name": "Овощи и грибы",
+    "types": [0, 1],
+    "size": [26, 30, 40],
+    "price": 285,
+    "category": 5,
+    "rating0": 7
+  }
+]
