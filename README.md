@@ -18,3 +18,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 # Redux Toolkit is available as a package on NPM for use with a module bundler or in a Node application:
 ### npm install @reduxjs/toolkit react-redux
+
+# Axios npm install axios
