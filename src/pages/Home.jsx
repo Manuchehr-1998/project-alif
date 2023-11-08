@@ -12,7 +12,7 @@ import Categories from "../components/Categories";
 import Skeleton from "../components/PizzaBlock/Skeleton";
 import PizzaBlock from "../components/PizzaBlock";
 import Pagination from "../components/Pagination.jsx/index.jsx";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { SearchContext } from "../App";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -92,11 +92,7 @@ const Home = () => {
     getPizzas();
   }, [categoryId, sort, searchValue, currentPage]);
 
-  const pizzas = items.map((item) => (
-    <Link key={item.id} to={`/pizza/${item.id}`}>
-      <PizzaBlock {...item}  />
-    </Link>
-  ));
+  const pizzas = items.map((item) => <PizzaBlock key={item.id} {...item} />);
   const sceleton = [...new Array(4)].map((_, index) => (
     <Skeleton key={index} />
   ));
