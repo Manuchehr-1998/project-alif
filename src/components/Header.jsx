@@ -17,7 +17,7 @@ export default function Header() {
             <img width="38" src={logoImg} alt="Pizza logo" />
             <div>
               <h1 className="text-4xl font-semibold text-[#181818]">
-                Alif Test Pizza
+                Pizza TJK
               </h1>
               <p className="text-[#7b7b7b]">самая вкусная пицца во вселенной</p>
             </div>
