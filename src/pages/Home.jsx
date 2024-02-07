@@ -100,7 +100,7 @@ const Home = () => {
   return (
     <div className="p-[40px]">
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between sm:flex-wrap">
           <Categories value={categoryId} onClickCategory={onClickCategory} />
           <Sort />
         </div>

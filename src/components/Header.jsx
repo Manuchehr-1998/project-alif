@@ -12,8 +12,8 @@ export default function Header() {
   return (
     <div className="p-[40px] border-b-[1px] border-slate-200">
       <div className="flex justify-between items-center flex-wrap">
-        <Link to="/">
-          <div className="flex gap-4">
+        <Link to="/" className="md:pb-1  lg:pb-2">
+          <div className="flex gap-4 ">
             <img width="38" src={logoImg} alt="Pizza logo" />
             <div>
               <h1 className="text-4xl font-semibold text-[#181818]">
@@ -24,7 +24,7 @@ export default function Header() {
           </div>
         </Link>
         <Search />
-        <div>
+        <div className="md:pt-2">
           {location.pathname !== "/cart" && (
             <div className="bg-[#FE5F1E] rounded-[30px] w-[150px] h-[50px] flex justify-center">
               <Link to="/cart" className="flex items-center text-[#fff] gap-2">

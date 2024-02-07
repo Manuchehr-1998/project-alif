@@ -1,7 +1,6 @@
 import React, {
   useCallback,
   useContext,
-  useEffect,
   useRef,
   useState,
 } from "react";
@@ -31,7 +30,7 @@ const Search = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative lg:pb-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -49,9 +48,9 @@ const Search = () => {
         onChange={onChangeInput}
         type="text"
         placeholder="Поиск пиццы..."
-        className="p-1 border-2 border-[#D3D3D3] pl-[25px] rounded-md focus:w-[450px] max-w-[500px] transition: all 0.15s ease-in-out"
+        className="p-1 border-2 border-[#D3D3D3] pl-[25px] rounded-md focus:w-[450px] min-w-[290px] sm:min-w-[200px] sm:max-w-[270px] md:max-w-[330px]  transition: all 0.15s ease-in-out"
       />
-      {value && (
+      {value && ( 
         <svg
           onClick={onClickClear}
           xmlns="http://www.w3.org/2000/svg"
