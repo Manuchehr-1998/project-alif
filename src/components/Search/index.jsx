@@ -1,9 +1,4 @@
-import React, {
-  useCallback,
-  useContext,
-  useRef,
-  useState,
-} from "react";
+import React, { useCallback, useContext, useRef, useState } from "react";
 import { SearchContext } from "../../App";
 import debounce from "lodash.debounce";
 
@@ -14,7 +9,7 @@ const Search = () => {
 
   const onClickClear = () => {
     setSearchValue("");
-    setValue("")
+    setValue("");
     inputRef.current.focus();
   };
 
@@ -26,7 +21,7 @@ const Search = () => {
   );
   const onChangeInput = (e) => {
     setValue(e.target.value);
-    updateSearchValue(e.target.value)
+    updateSearchValue(e.target.value);
   };
 
   return (
@@ -48,9 +43,9 @@ const Search = () => {
         onChange={onChangeInput}
         type="text"
         placeholder="Поиск пиццы..."
-        className="p-1 border-2 border-[#D3D3D3] pl-[25px] rounded-md focus:w-[450px] min-w-[290px] sm:min-w-[200px] sm:max-w-[270px] md:max-w-[330px]  transition: all 0.15s ease-in-out"
+        className="p-1 border-2 border-[#D3D3D3] pl-[25px] rounded-md focus:w-[450px] min-w-[290px] sm:min-w-[200px] sm:max-w-[200px] md:max-w-[330px]  transition: all 0.15s ease-in-out"
       />
-      {value && ( 
+      {value && (
         <svg
           onClick={onClickClear}
           xmlns="http://www.w3.org/2000/svg"
