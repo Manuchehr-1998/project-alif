@@ -99,6 +99,17 @@ const Home = () => {
 
   return (
     <div className="p-[40px]">
+      <div className="text-center text-[30px] flex flex-wrap justify-center">
+        <h1 className="w-full text-blue-900">
+          Контакты для закази сайта Телефон для ватсап и телеграм:+992
+          985-64-69-64
+        </h1>
+        <div className="bg-[#046098] w-[250px] rounded-lg ">
+          <a href="https://t.me/S_Manuchehr_0001">
+            <button>Telegram</button>
+          </a>
+        </div>
+      </div>
       <div className="container">
         <div className="flex items-center justify-between sm:flex-wrap">
           <Categories value={categoryId} onClickCategory={onClickCategory} />
@@ -125,6 +136,17 @@ const Home = () => {
         )}
       </div>
       <Pagination onChangePage={onChangePage} currentPage={currentPage} />
+      <div className="text-center text-[30px] flex flex-wrap justify-center">
+        <h1 className="w-full text-blue-900">
+          Контакты для закази сайта Телефон для ватсап и телеграм:+992
+          985-64-69-64
+        </h1>
+        <div className="bg-[#046098] w-[250px] rounded-lg ">
+          <a href="https://t.me/S_Manuchehr_0001">
+            <button>Telegram</button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
